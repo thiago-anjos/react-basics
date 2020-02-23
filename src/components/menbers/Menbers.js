@@ -25,7 +25,7 @@ class Membro extends Component{
     render(){
         return(
           <div>
-          <h2>Bem vindo ao nosso site</h2> 
+          <h2>Bem vindo ao nosso site 2</h2> 
           <button onClick={this.login}>Clique aqui para logar</button>   
           <button onClick={this.logout}>Clique aqui para sair</button>
           {this.state.state === 1 ? 
